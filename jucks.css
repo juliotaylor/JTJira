@@ -1,0 +1,81 @@
+/* expand the swimlane button to 100% */
+
+.ghx-swimlane-header .ghx-expander {
+    width: 100%;
+}
+
+/* style kanban card extra fields */
+
+.ghx-issue .ghx-extra-fields {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #53415F;
+}
+
+/* make the first extra field in kanban card green and bold, usually a date */
+
+.ghx-issue .ghx-extra-fields .ghx-row:first-child {
+    color: #7EBE78;
+    font-weight: bold;
+}
+
+/* make the last extra field in kanban card green and bold, usually a date */
+
+.ghx-issue .ghx-extra-fields .ghx-row:last-child {
+    color: #999;
+}
+
+/* improve the issue key in board card */
+
+.adg3 .ghx-key {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+/* apply a border to card footer */
+
+.ghx-issue .ghx-stat-fields {
+    border-top: 1px dashed #eee;
+    margin-top: 10px;
+}
+
+/* improve padding of cards */
+
+.ghx-issue {
+    padding: 1rem;
+}
+
+/* improve the style and font size of the backlog card extra fields */
+
+.ghx-issue-compact .ghx-plan-extra-fields .ghx-extra-field {
+    font-size: 0.7rem;
+    color: #777;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields .ghx-extra-field:last-child {
+    text-transform: uppercase;
+    color: #53415F;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields .ghx-extra-field:first-child {
+    color: #7EBE78;
+    text-transform: uppercase;
+}
+
+/* fix the separators in backlog cards */
+
+.ghx-issue-compact .ghx-plan-extra-fields .ghx-extra-field-seperator {
+    margin: 0 10px;
+    background: #eee;
+    font-size: 0;
+    width: 1px;
+    height: 17px;
+    padding: 0;
+}
+
+.ghx-issue .ghx-extra-fields .ghx-fa, .ghx-issue-compact .ghx-plan-extra-fields .ghx-fa {
+    color: #53415F;
+    font-style: normal;
+    font-weight: bold;
+}
+
